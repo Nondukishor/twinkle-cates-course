@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import AxiousGetData from './Components/AxiousGetData/AxiousGetData';
+import FormExample from './Components/Froms';
+
 
 class App extends Component {
   state = {  }
   render() {
     return (
       <>
-      <AxiousGetData/>
+      <FormExample/>
       </>
     );
   }
